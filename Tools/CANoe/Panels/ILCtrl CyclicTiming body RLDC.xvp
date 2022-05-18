@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Panel Type="Vector.CANalyzer.Panels.PanelSerializer, Vector.CANalyzer.Panels.Serializer, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null">
+  <Object Type="Vector.CANalyzer.Panels.Runtime.Panel, Vector.CANalyzer.Panels.Common, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="Panel" ControlName="ILCtrl CyclicTiming body RLDC" Children="Controls">
+    <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl944" ControlName="GroupBoxControl944" Children="Controls">
+      <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl945" ControlName="GroupBoxControl945" Children="Controls">
+        <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl946" ControlName="GroupBoxControl946" Children="Controls">
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl246" ControlName="CheckBoxControl246" Children="Controls">
+            <Property Name="Name">CheckBoxControl246</Property>
+            <Property Name="Size">60,17</Property>
+            <Property Name="Location">5,22</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">Enable</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLDC::MESSAGES::RLDC_Dem::TIMINGS;;;EnableCyclic;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl413" ControlName="RadioButtonControl413" Children="Controls">
+            <Property Name="Name">RadioButtonControl413</Property>
+            <Property Name="Size">95,34</Property>
+            <Property Name="Location">65,14</Property>
+            <Property Name="Text">Normal Period
+(0 ms)</Property>
+            <Property Name="SwitchValue">0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLDC::MESSAGES::RLDC_Dem::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl414" ControlName="RadioButtonControl414" Children="Controls">
+            <Property Name="Name">RadioButtonControl414</Property>
+            <Property Name="Size">85,17</Property>
+            <Property Name="Location">160,22</Property>
+            <Property Name="Text">User Period</Property>
+            <Property Name="SwitchValue">-1</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLDC::MESSAGES::RLDC_Dem::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl207" ControlName="TextBoxControl207" Children="Controls">
+            <Property Name="Name">TextBoxControl207</Property>
+            <Property Name="Size">40,21</Property>
+            <Property Name="Location">245,22</Property>
+            <Property Name="TextForeColor">0,0,0</Property>
+            <Property Name="BoxForeColor">0,0,0</Property>
+            <Property Name="DescriptionText" />
+            <Property Name="ValueDecimalPlaces">0</Property>
+            <Property Name="BoxTextAlign">Left</Property>
+            <Property Name="BoxBorderStyle">FixedSingle</Property>
+            <Property Name="ValueDisplay">Decimal</Property>
+            <Property Name="AlarmGeneralSettings">1;0;0;0</Property>
+            <Property Name="DisplayLabel">Left</Property>
+            <Property Name="TextBackColor">255,255,255</Property>
+            <Property Name="BoxBackColor">255,255,255</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLDC::MESSAGES::RLDC_Dem::TIMINGS;;;CyclePeriod;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Property Name="Name">GroupBoxControl946</Property>
+          <Property Name="Size">290,53</Property>
+          <Property Name="Location">5,17</Property>
+          <Property Name="UseWindowsStyle">False</Property>
+          <Property Name="BackColor">255,255,255</Property>
+          <Property Name="Text">Cyclic Timing</Property>
+          <Property Name="ForeColor">0,0,0</Property>
+        </Object>
+        <Property Name="Name">GroupBoxControl945</Property>
+        <Property Name="Size">300,75</Property>
+        <Property Name="Location">5,17</Property>
+        <Property Name="UseWindowsStyle">False</Property>
+        <Property Name="BackColor">255,255,255</Property>
+        <Property Name="Text">Message RLDC_Dem</Property>
+        <Property Name="ForeColor">0,0,0</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl947" ControlName="GroupBoxControl947" Children="Controls">
+        <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl948" ControlName="GroupBoxControl948" Children="Controls">
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl247" ControlName="CheckBoxControl247" Children="Controls">
+            <Property Name="Name">CheckBoxControl247</Property>
+            <Property Name="Size">60,17</Property>
+            <Property Name="Location">5,22</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">Enable</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLDC::MESSAGES::RLDC_ResetDiagnostic::TIMINGS;;;EnableCyclic;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl415" ControlName="RadioButtonControl415" Children="Controls">
+            <Property Name="Name">RadioButtonControl415</Property>
+            <Property Name="Size">95,34</Property>
+            <Property Name="Location">65,14</Property>
+            <Property Name="Text">Normal Period
+(0 ms)</Property>
+            <Property Name="SwitchValue">0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLDC::MESSAGES::RLDC_ResetDiagnostic::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl416" ControlName="RadioButtonControl416" Children="Controls">
+            <Property Name="Name">RadioButtonControl416</Property>
+            <Property Name="Size">85,17</Property>
+            <Property Name="Location">160,22</Property>
+            <Property Name="Text">User Period</Property>
+            <Property Name="SwitchValue">-1</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLDC::MESSAGES::RLDC_ResetDiagnostic::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl208" ControlName="TextBoxControl208" Children="Controls">
+            <Property Name="Name">TextBoxControl208</Property>
+            <Property Name="Size">40,21</Property>
+            <Property Name="Location">245,22</Property>
+            <Property Name="TextForeColor">0,0,0</Property>
+            <Property Name="BoxForeColor">0,0,0</Property>
+            <Property Name="DescriptionText" />
+            <Property Name="ValueDecimalPlaces">0</Property>
+            <Property Name="BoxTextAlign">Left</Property>
+            <Property Name="BoxBorderStyle">FixedSingle</Property>
+            <Property Name="ValueDisplay">Decimal</Property>
+            <Property Name="AlarmGeneralSettings">1;0;0;0</Property>
+            <Property Name="DisplayLabel">Left</Property>
+            <Property Name="TextBackColor">255,255,255</Property>
+            <Property Name="BoxBackColor">255,255,255</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLDC::MESSAGES::RLDC_ResetDiagnostic::TIMINGS;;;CyclePeriod;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Property Name="Name">GroupBoxControl948</Property>
+          <Property Name="Size">290,53</Property>
+          <Property Name="Location">5,17</Property>
+          <Property Name="UseWindowsStyle">False</Property>
+          <Property Name="BackColor">255,255,255</Property>
+          <Property Name="Text">Cyclic Timing</Property>
+          <Property Name="ForeColor">0,0,0</Property>
+        </Object>
+        <Property Name="Name">GroupBoxControl947</Property>
+        <Property Name="Size">300,75</Property>
+        <Property Name="Location">5,97</Property>
+        <Property Name="UseWindowsStyle">False</Property>
+        <Property Name="BackColor">255,255,255</Property>
+        <Property Name="Text">Message RLDC_ResetDiagnostic</Property>
+        <Property Name="ForeColor">0,0,0</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl949" ControlName="GroupBoxControl949" Children="Controls">
+        <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl950" ControlName="GroupBoxControl950" Children="Controls">
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl248" ControlName="CheckBoxControl248" Children="Controls">
+            <Property Name="Name">CheckBoxControl248</Property>
+            <Property Name="Size">60,17</Property>
+            <Property Name="Location">5,22</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">Enable</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLDC::MESSAGES::RLDC_SequenceResponse::TIMINGS;;;EnableCyclic;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl417" ControlName="RadioButtonControl417" Children="Controls">
+            <Property Name="Name">RadioButtonControl417</Property>
+            <Property Name="Size">95,34</Property>
+            <Property Name="Location">65,14</Property>
+            <Property Name="Text">Normal Period
+(0 ms)</Property>
+            <Property Name="SwitchValue">0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLDC::MESSAGES::RLDC_SequenceResponse::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl418" ControlName="RadioButtonControl418" Children="Controls">
+            <Property Name="Name">RadioButtonControl418</Property>
+            <Property Name="Size">85,17</Property>
+            <Property Name="Location">160,22</Property>
+            <Property Name="Text">User Period</Property>
+            <Property Name="SwitchValue">-1</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLDC::MESSAGES::RLDC_SequenceResponse::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl209" ControlName="TextBoxControl209" Children="Controls">
+            <Property Name="Name">TextBoxControl209</Property>
+            <Property Name="Size">40,21</Property>
+            <Property Name="Location">245,22</Property>
+            <Property Name="TextForeColor">0,0,0</Property>
+            <Property Name="BoxForeColor">0,0,0</Property>
+            <Property Name="DescriptionText" />
+            <Property Name="ValueDecimalPlaces">0</Property>
+            <Property Name="BoxTextAlign">Left</Property>
+            <Property Name="BoxBorderStyle">FixedSingle</Property>
+            <Property Name="ValueDisplay">Decimal</Property>
+            <Property Name="AlarmGeneralSettings">1;0;0;0</Property>
+            <Property Name="DisplayLabel">Left</Property>
+            <Property Name="TextBackColor">255,255,255</Property>
+            <Property Name="BoxBackColor">255,255,255</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLDC::MESSAGES::RLDC_SequenceResponse::TIMINGS;;;CyclePeriod;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Property Name="Name">GroupBoxControl950</Property>
+          <Property Name="Size">290,53</Property>
+          <Property Name="Location">5,17</Property>
+          <Property Name="UseWindowsStyle">False</Property>
+          <Property Name="BackColor">255,255,255</Property>
+          <Property Name="Text">Cyclic Timing</Property>
+          <Property Name="ForeColor">0,0,0</Property>
+        </Object>
+        <Property Name="Name">GroupBoxControl949</Property>
+        <Property Name="Size">300,75</Property>
+        <Property Name="Location">5,177</Property>
+        <Property Name="UseWindowsStyle">False</Property>
+        <Property Name="BackColor">255,255,255</Property>
+        <Property Name="Text">Message RLDC_SequenceResponse</Property>
+        <Property Name="ForeColor">0,0,0</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl951" ControlName="GroupBoxControl951" Children="Controls">
+        <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl952" ControlName="GroupBoxControl952" Children="Controls">
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl249" ControlName="CheckBoxControl249" Children="Controls">
+            <Property Name="Name">CheckBoxControl249</Property>
+            <Property Name="Size">60,17</Property>
+            <Property Name="Location">5,22</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">Enable</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLDC::MESSAGES::RLDC_Status::TIMINGS;;;EnableCyclic;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl419" ControlName="RadioButtonControl419" Children="Controls">
+            <Property Name="Name">RadioButtonControl419</Property>
+            <Property Name="Size">95,34</Property>
+            <Property Name="Location">65,14</Property>
+            <Property Name="Text">Normal Period
+(100 ms)</Property>
+            <Property Name="SwitchValue">0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLDC::MESSAGES::RLDC_Status::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl420" ControlName="RadioButtonControl420" Children="Controls">
+            <Property Name="Name">RadioButtonControl420</Property>
+            <Property Name="Size">85,17</Property>
+            <Property Name="Location">160,22</Property>
+            <Property Name="Text">User Period</Property>
+            <Property Name="SwitchValue">-1</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLDC::MESSAGES::RLDC_Status::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl210" ControlName="TextBoxControl210" Children="Controls">
+            <Property Name="Name">TextBoxControl210</Property>
+            <Property Name="Size">40,21</Property>
+            <Property Name="Location">245,22</Property>
+            <Property Name="TextForeColor">0,0,0</Property>
+            <Property Name="BoxForeColor">0,0,0</Property>
+            <Property Name="DescriptionText" />
+            <Property Name="ValueDecimalPlaces">0</Property>
+            <Property Name="BoxTextAlign">Left</Property>
+            <Property Name="BoxBorderStyle">FixedSingle</Property>
+            <Property Name="ValueDisplay">Decimal</Property>
+            <Property Name="AlarmGeneralSettings">1;0;0;0</Property>
+            <Property Name="DisplayLabel">Left</Property>
+            <Property Name="TextBackColor">255,255,255</Property>
+            <Property Name="BoxBackColor">255,255,255</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLDC::MESSAGES::RLDC_Status::TIMINGS;;;CyclePeriod;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Property Name="Name">GroupBoxControl952</Property>
+          <Property Name="Size">290,53</Property>
+          <Property Name="Location">5,17</Property>
+          <Property Name="UseWindowsStyle">False</Property>
+          <Property Name="BackColor">255,255,255</Property>
+          <Property Name="Text">Cyclic Timing</Property>
+          <Property Name="ForeColor">0,0,0</Property>
+        </Object>
+        <Property Name="Name">GroupBoxControl951</Property>
+        <Property Name="Size">300,75</Property>
+        <Property Name="Location">5,257</Property>
+        <Property Name="UseWindowsStyle">False</Property>
+        <Property Name="BackColor">255,255,255</Property>
+        <Property Name="Text">Message RLDC_Status</Property>
+        <Property Name="ForeColor">0,0,0</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl953" ControlName="GroupBoxControl953" Children="Controls">
+        <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl954" ControlName="GroupBoxControl954" Children="Controls">
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl250" ControlName="CheckBoxControl250" Children="Controls">
+            <Property Name="Name">CheckBoxControl250</Property>
+            <Property Name="Size">60,17</Property>
+            <Property Name="Location">5,22</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">Enable</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLDC::MESSAGES::RLDC_UDSResponse::TIMINGS;;;EnableCyclic;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl421" ControlName="RadioButtonControl421" Children="Controls">
+            <Property Name="Name">RadioButtonControl421</Property>
+            <Property Name="Size">95,34</Property>
+            <Property Name="Location">65,14</Property>
+            <Property Name="Text">Normal Period
+(0 ms)</Property>
+            <Property Name="SwitchValue">0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLDC::MESSAGES::RLDC_UDSResponse::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl422" ControlName="RadioButtonControl422" Children="Controls">
+            <Property Name="Name">RadioButtonControl422</Property>
+            <Property Name="Size">85,17</Property>
+            <Property Name="Location">160,22</Property>
+            <Property Name="Text">User Period</Property>
+            <Property Name="SwitchValue">-1</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLDC::MESSAGES::RLDC_UDSResponse::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl211" ControlName="TextBoxControl211" Children="Controls">
+            <Property Name="Name">TextBoxControl211</Property>
+            <Property Name="Size">40,21</Property>
+            <Property Name="Location">245,22</Property>
+            <Property Name="TextForeColor">0,0,0</Property>
+            <Property Name="BoxForeColor">0,0,0</Property>
+            <Property Name="DescriptionText" />
+            <Property Name="ValueDecimalPlaces">0</Property>
+            <Property Name="BoxTextAlign">Left</Property>
+            <Property Name="BoxBorderStyle">FixedSingle</Property>
+            <Property Name="ValueDisplay">Decimal</Property>
+            <Property Name="AlarmGeneralSettings">1;0;0;0</Property>
+            <Property Name="DisplayLabel">Left</Property>
+            <Property Name="TextBackColor">255,255,255</Property>
+            <Property Name="BoxBackColor">255,255,255</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLDC::MESSAGES::RLDC_UDSResponse::TIMINGS;;;CyclePeriod;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Property Name="Name">GroupBoxControl954</Property>
+          <Property Name="Size">290,53</Property>
+          <Property Name="Location">5,17</Property>
+          <Property Name="UseWindowsStyle">False</Property>
+          <Property Name="BackColor">255,255,255</Property>
+          <Property Name="Text">Cyclic Timing</Property>
+          <Property Name="ForeColor">0,0,0</Property>
+        </Object>
+        <Property Name="Name">GroupBoxControl953</Property>
+        <Property Name="Size">300,75</Property>
+        <Property Name="Location">5,337</Property>
+        <Property Name="UseWindowsStyle">False</Property>
+        <Property Name="BackColor">255,255,255</Property>
+        <Property Name="Text">Message RLDC_UDSResponse</Property>
+        <Property Name="ForeColor">0,0,0</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl955" ControlName="GroupBoxControl955" Children="Controls">
+        <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl956" ControlName="GroupBoxControl956" Children="Controls">
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl251" ControlName="CheckBoxControl251" Children="Controls">
+            <Property Name="Name">CheckBoxControl251</Property>
+            <Property Name="Size">60,17</Property>
+            <Property Name="Location">5,22</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">Enable</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLDC::MESSAGES::RLDC_Version::TIMINGS;;;EnableCyclic;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl423" ControlName="RadioButtonControl423" Children="Controls">
+            <Property Name="Name">RadioButtonControl423</Property>
+            <Property Name="Size">95,34</Property>
+            <Property Name="Location">65,14</Property>
+            <Property Name="Text">Normal Period
+(10000 ms)</Property>
+            <Property Name="SwitchValue">0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLDC::MESSAGES::RLDC_Version::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl424" ControlName="RadioButtonControl424" Children="Controls">
+            <Property Name="Name">RadioButtonControl424</Property>
+            <Property Name="Size">85,17</Property>
+            <Property Name="Location">160,22</Property>
+            <Property Name="Text">User Period</Property>
+            <Property Name="SwitchValue">-1</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLDC::MESSAGES::RLDC_Version::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl212" ControlName="TextBoxControl212" Children="Controls">
+            <Property Name="Name">TextBoxControl212</Property>
+            <Property Name="Size">40,21</Property>
+            <Property Name="Location">245,22</Property>
+            <Property Name="TextForeColor">0,0,0</Property>
+            <Property Name="BoxForeColor">0,0,0</Property>
+            <Property Name="DescriptionText" />
+            <Property Name="ValueDecimalPlaces">0</Property>
+            <Property Name="BoxTextAlign">Left</Property>
+            <Property Name="BoxBorderStyle">FixedSingle</Property>
+            <Property Name="ValueDisplay">Decimal</Property>
+            <Property Name="AlarmGeneralSettings">1;0;0;0</Property>
+            <Property Name="DisplayLabel">Left</Property>
+            <Property Name="TextBackColor">255,255,255</Property>
+            <Property Name="BoxBackColor">255,255,255</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLDC::MESSAGES::RLDC_Version::TIMINGS;;;CyclePeriod;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Property Name="Name">GroupBoxControl956</Property>
+          <Property Name="Size">290,53</Property>
+          <Property Name="Location">5,17</Property>
+          <Property Name="UseWindowsStyle">False</Property>
+          <Property Name="BackColor">255,255,255</Property>
+          <Property Name="Text">Cyclic Timing</Property>
+          <Property Name="ForeColor">0,0,0</Property>
+        </Object>
+        <Property Name="Name">GroupBoxControl955</Property>
+        <Property Name="Size">300,75</Property>
+        <Property Name="Location">5,417</Property>
+        <Property Name="UseWindowsStyle">False</Property>
+        <Property Name="BackColor">255,255,255</Property>
+        <Property Name="Text">Message RLDC_Version</Property>
+        <Property Name="ForeColor">0,0,0</Property>
+      </Object>
+      <Property Name="Name">GroupBoxControl944</Property>
+      <Property Name="Size">310,497</Property>
+      <Property Name="Location">5,5</Property>
+      <Property Name="UseWindowsStyle">False</Property>
+      <Property Name="BackColor">255,255,255</Property>
+      <Property Name="Text">TX Messages of RLDC</Property>
+      <Property Name="ForeColor">0,0,0</Property>
+    </Object>
+    <Property Name="Panel">Panel</Property>
+    <Property Name="Size">320,507</Property>
+    <Property Name="BackColor">255,255,255</Property>
+  </Object>
+</Panel>

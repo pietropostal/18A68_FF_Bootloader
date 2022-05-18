@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Panel Type="Vector.CANalyzer.Panels.PanelSerializer, Vector.CANalyzer.Panels.Serializer, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null">
+  <Object Type="Vector.CANalyzer.Panels.Runtime.Panel, Vector.CANalyzer.Panels.Common, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="Panel" ControlName="ILCtrl CyclicTiming body RLSM" Children="Controls">
+    <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl972" ControlName="GroupBoxControl972" Children="Controls">
+      <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl973" ControlName="GroupBoxControl973" Children="Controls">
+        <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl974" ControlName="GroupBoxControl974" Children="Controls">
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl252" ControlName="CheckBoxControl252" Children="Controls">
+            <Property Name="Name">CheckBoxControl252</Property>
+            <Property Name="Size">60,17</Property>
+            <Property Name="Location">5,22</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">Enable</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLSM::MESSAGES::RLSM_Dem::TIMINGS;;;EnableCyclic;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl425" ControlName="RadioButtonControl425" Children="Controls">
+            <Property Name="Name">RadioButtonControl425</Property>
+            <Property Name="Size">95,34</Property>
+            <Property Name="Location">65,14</Property>
+            <Property Name="Text">Normal Period
+(0 ms)</Property>
+            <Property Name="SwitchValue">0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLSM::MESSAGES::RLSM_Dem::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl426" ControlName="RadioButtonControl426" Children="Controls">
+            <Property Name="Name">RadioButtonControl426</Property>
+            <Property Name="Size">85,17</Property>
+            <Property Name="Location">160,22</Property>
+            <Property Name="Text">User Period</Property>
+            <Property Name="SwitchValue">-1</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLSM::MESSAGES::RLSM_Dem::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl213" ControlName="TextBoxControl213" Children="Controls">
+            <Property Name="Name">TextBoxControl213</Property>
+            <Property Name="Size">40,21</Property>
+            <Property Name="Location">245,22</Property>
+            <Property Name="TextForeColor">0,0,0</Property>
+            <Property Name="BoxForeColor">0,0,0</Property>
+            <Property Name="DescriptionText" />
+            <Property Name="ValueDecimalPlaces">0</Property>
+            <Property Name="BoxTextAlign">Left</Property>
+            <Property Name="BoxBorderStyle">FixedSingle</Property>
+            <Property Name="ValueDisplay">Decimal</Property>
+            <Property Name="AlarmGeneralSettings">1;0;0;0</Property>
+            <Property Name="DisplayLabel">Left</Property>
+            <Property Name="TextBackColor">255,255,255</Property>
+            <Property Name="BoxBackColor">255,255,255</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLSM::MESSAGES::RLSM_Dem::TIMINGS;;;CyclePeriod;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Property Name="Name">GroupBoxControl974</Property>
+          <Property Name="Size">290,53</Property>
+          <Property Name="Location">5,17</Property>
+          <Property Name="UseWindowsStyle">False</Property>
+          <Property Name="BackColor">255,255,255</Property>
+          <Property Name="Text">Cyclic Timing</Property>
+          <Property Name="ForeColor">0,0,0</Property>
+        </Object>
+        <Property Name="Name">GroupBoxControl973</Property>
+        <Property Name="Size">300,75</Property>
+        <Property Name="Location">5,17</Property>
+        <Property Name="UseWindowsStyle">False</Property>
+        <Property Name="BackColor">255,255,255</Property>
+        <Property Name="Text">Message RLSM_Dem</Property>
+        <Property Name="ForeColor">0,0,0</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl975" ControlName="GroupBoxControl975" Children="Controls">
+        <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl976" ControlName="GroupBoxControl976" Children="Controls">
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl253" ControlName="CheckBoxControl253" Children="Controls">
+            <Property Name="Name">CheckBoxControl253</Property>
+            <Property Name="Size">60,17</Property>
+            <Property Name="Location">5,22</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">Enable</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLSM::MESSAGES::RLSM_ResetDiagnostic::TIMINGS;;;EnableCyclic;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl427" ControlName="RadioButtonControl427" Children="Controls">
+            <Property Name="Name">RadioButtonControl427</Property>
+            <Property Name="Size">95,34</Property>
+            <Property Name="Location">65,14</Property>
+            <Property Name="Text">Normal Period
+(0 ms)</Property>
+            <Property Name="SwitchValue">0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLSM::MESSAGES::RLSM_ResetDiagnostic::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl428" ControlName="RadioButtonControl428" Children="Controls">
+            <Property Name="Name">RadioButtonControl428</Property>
+            <Property Name="Size">85,17</Property>
+            <Property Name="Location">160,22</Property>
+            <Property Name="Text">User Period</Property>
+            <Property Name="SwitchValue">-1</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLSM::MESSAGES::RLSM_ResetDiagnostic::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl214" ControlName="TextBoxControl214" Children="Controls">
+            <Property Name="Name">TextBoxControl214</Property>
+            <Property Name="Size">40,21</Property>
+            <Property Name="Location">245,22</Property>
+            <Property Name="TextForeColor">0,0,0</Property>
+            <Property Name="BoxForeColor">0,0,0</Property>
+            <Property Name="DescriptionText" />
+            <Property Name="ValueDecimalPlaces">0</Property>
+            <Property Name="BoxTextAlign">Left</Property>
+            <Property Name="BoxBorderStyle">FixedSingle</Property>
+            <Property Name="ValueDisplay">Decimal</Property>
+            <Property Name="AlarmGeneralSettings">1;0;0;0</Property>
+            <Property Name="DisplayLabel">Left</Property>
+            <Property Name="TextBackColor">255,255,255</Property>
+            <Property Name="BoxBackColor">255,255,255</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLSM::MESSAGES::RLSM_ResetDiagnostic::TIMINGS;;;CyclePeriod;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Property Name="Name">GroupBoxControl976</Property>
+          <Property Name="Size">290,53</Property>
+          <Property Name="Location">5,17</Property>
+          <Property Name="UseWindowsStyle">False</Property>
+          <Property Name="BackColor">255,255,255</Property>
+          <Property Name="Text">Cyclic Timing</Property>
+          <Property Name="ForeColor">0,0,0</Property>
+        </Object>
+        <Property Name="Name">GroupBoxControl975</Property>
+        <Property Name="Size">300,75</Property>
+        <Property Name="Location">5,97</Property>
+        <Property Name="UseWindowsStyle">False</Property>
+        <Property Name="BackColor">255,255,255</Property>
+        <Property Name="Text">Message RLSM_ResetDiagnostic</Property>
+        <Property Name="ForeColor">0,0,0</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl977" ControlName="GroupBoxControl977" Children="Controls">
+        <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl978" ControlName="GroupBoxControl978" Children="Controls">
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl254" ControlName="CheckBoxControl254" Children="Controls">
+            <Property Name="Name">CheckBoxControl254</Property>
+            <Property Name="Size">60,17</Property>
+            <Property Name="Location">5,22</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">Enable</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLSM::MESSAGES::RLSM_SeatPos::TIMINGS;;;EnableCyclic;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl429" ControlName="RadioButtonControl429" Children="Controls">
+            <Property Name="Name">RadioButtonControl429</Property>
+            <Property Name="Size">95,34</Property>
+            <Property Name="Location">65,14</Property>
+            <Property Name="Text">Normal Period
+(100 ms)</Property>
+            <Property Name="SwitchValue">0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLSM::MESSAGES::RLSM_SeatPos::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl430" ControlName="RadioButtonControl430" Children="Controls">
+            <Property Name="Name">RadioButtonControl430</Property>
+            <Property Name="Size">85,17</Property>
+            <Property Name="Location">160,22</Property>
+            <Property Name="Text">User Period</Property>
+            <Property Name="SwitchValue">-1</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLSM::MESSAGES::RLSM_SeatPos::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl215" ControlName="TextBoxControl215" Children="Controls">
+            <Property Name="Name">TextBoxControl215</Property>
+            <Property Name="Size">40,21</Property>
+            <Property Name="Location">245,22</Property>
+            <Property Name="TextForeColor">0,0,0</Property>
+            <Property Name="BoxForeColor">0,0,0</Property>
+            <Property Name="DescriptionText" />
+            <Property Name="ValueDecimalPlaces">0</Property>
+            <Property Name="BoxTextAlign">Left</Property>
+            <Property Name="BoxBorderStyle">FixedSingle</Property>
+            <Property Name="ValueDisplay">Decimal</Property>
+            <Property Name="AlarmGeneralSettings">1;0;0;0</Property>
+            <Property Name="DisplayLabel">Left</Property>
+            <Property Name="TextBackColor">255,255,255</Property>
+            <Property Name="BoxBackColor">255,255,255</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLSM::MESSAGES::RLSM_SeatPos::TIMINGS;;;CyclePeriod;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Property Name="Name">GroupBoxControl978</Property>
+          <Property Name="Size">290,53</Property>
+          <Property Name="Location">5,17</Property>
+          <Property Name="UseWindowsStyle">False</Property>
+          <Property Name="BackColor">255,255,255</Property>
+          <Property Name="Text">Cyclic Timing</Property>
+          <Property Name="ForeColor">0,0,0</Property>
+        </Object>
+        <Property Name="Name">GroupBoxControl977</Property>
+        <Property Name="Size">300,75</Property>
+        <Property Name="Location">5,177</Property>
+        <Property Name="UseWindowsStyle">False</Property>
+        <Property Name="BackColor">255,255,255</Property>
+        <Property Name="Text">Message RLSM_SeatPos</Property>
+        <Property Name="ForeColor">0,0,0</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl979" ControlName="GroupBoxControl979" Children="Controls">
+        <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl980" ControlName="GroupBoxControl980" Children="Controls">
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl255" ControlName="CheckBoxControl255" Children="Controls">
+            <Property Name="Name">CheckBoxControl255</Property>
+            <Property Name="Size">60,17</Property>
+            <Property Name="Location">5,22</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">Enable</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLSM::MESSAGES::RLSM_Status::TIMINGS;;;EnableCyclic;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl431" ControlName="RadioButtonControl431" Children="Controls">
+            <Property Name="Name">RadioButtonControl431</Property>
+            <Property Name="Size">95,34</Property>
+            <Property Name="Location">65,14</Property>
+            <Property Name="Text">Normal Period
+(100 ms)</Property>
+            <Property Name="SwitchValue">0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLSM::MESSAGES::RLSM_Status::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl432" ControlName="RadioButtonControl432" Children="Controls">
+            <Property Name="Name">RadioButtonControl432</Property>
+            <Property Name="Size">85,17</Property>
+            <Property Name="Location">160,22</Property>
+            <Property Name="Text">User Period</Property>
+            <Property Name="SwitchValue">-1</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLSM::MESSAGES::RLSM_Status::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl216" ControlName="TextBoxControl216" Children="Controls">
+            <Property Name="Name">TextBoxControl216</Property>
+            <Property Name="Size">40,21</Property>
+            <Property Name="Location">245,22</Property>
+            <Property Name="TextForeColor">0,0,0</Property>
+            <Property Name="BoxForeColor">0,0,0</Property>
+            <Property Name="DescriptionText" />
+            <Property Name="ValueDecimalPlaces">0</Property>
+            <Property Name="BoxTextAlign">Left</Property>
+            <Property Name="BoxBorderStyle">FixedSingle</Property>
+            <Property Name="ValueDisplay">Decimal</Property>
+            <Property Name="AlarmGeneralSettings">1;0;0;0</Property>
+            <Property Name="DisplayLabel">Left</Property>
+            <Property Name="TextBackColor">255,255,255</Property>
+            <Property Name="BoxBackColor">255,255,255</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLSM::MESSAGES::RLSM_Status::TIMINGS;;;CyclePeriod;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Property Name="Name">GroupBoxControl980</Property>
+          <Property Name="Size">290,53</Property>
+          <Property Name="Location">5,17</Property>
+          <Property Name="UseWindowsStyle">False</Property>
+          <Property Name="BackColor">255,255,255</Property>
+          <Property Name="Text">Cyclic Timing</Property>
+          <Property Name="ForeColor">0,0,0</Property>
+        </Object>
+        <Property Name="Name">GroupBoxControl979</Property>
+        <Property Name="Size">300,75</Property>
+        <Property Name="Location">5,257</Property>
+        <Property Name="UseWindowsStyle">False</Property>
+        <Property Name="BackColor">255,255,255</Property>
+        <Property Name="Text">Message RLSM_Status</Property>
+        <Property Name="ForeColor">0,0,0</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl981" ControlName="GroupBoxControl981" Children="Controls">
+        <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl982" ControlName="GroupBoxControl982" Children="Controls">
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl256" ControlName="CheckBoxControl256" Children="Controls">
+            <Property Name="Name">CheckBoxControl256</Property>
+            <Property Name="Size">60,17</Property>
+            <Property Name="Location">5,22</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">Enable</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLSM::MESSAGES::RLSM_UDSResponse::TIMINGS;;;EnableCyclic;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl433" ControlName="RadioButtonControl433" Children="Controls">
+            <Property Name="Name">RadioButtonControl433</Property>
+            <Property Name="Size">95,34</Property>
+            <Property Name="Location">65,14</Property>
+            <Property Name="Text">Normal Period
+(0 ms)</Property>
+            <Property Name="SwitchValue">0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLSM::MESSAGES::RLSM_UDSResponse::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl434" ControlName="RadioButtonControl434" Children="Controls">
+            <Property Name="Name">RadioButtonControl434</Property>
+            <Property Name="Size">85,17</Property>
+            <Property Name="Location">160,22</Property>
+            <Property Name="Text">User Period</Property>
+            <Property Name="SwitchValue">-1</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLSM::MESSAGES::RLSM_UDSResponse::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl217" ControlName="TextBoxControl217" Children="Controls">
+            <Property Name="Name">TextBoxControl217</Property>
+            <Property Name="Size">40,21</Property>
+            <Property Name="Location">245,22</Property>
+            <Property Name="TextForeColor">0,0,0</Property>
+            <Property Name="BoxForeColor">0,0,0</Property>
+            <Property Name="DescriptionText" />
+            <Property Name="ValueDecimalPlaces">0</Property>
+            <Property Name="BoxTextAlign">Left</Property>
+            <Property Name="BoxBorderStyle">FixedSingle</Property>
+            <Property Name="ValueDisplay">Decimal</Property>
+            <Property Name="AlarmGeneralSettings">1;0;0;0</Property>
+            <Property Name="DisplayLabel">Left</Property>
+            <Property Name="TextBackColor">255,255,255</Property>
+            <Property Name="BoxBackColor">255,255,255</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLSM::MESSAGES::RLSM_UDSResponse::TIMINGS;;;CyclePeriod;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Property Name="Name">GroupBoxControl982</Property>
+          <Property Name="Size">290,53</Property>
+          <Property Name="Location">5,17</Property>
+          <Property Name="UseWindowsStyle">False</Property>
+          <Property Name="BackColor">255,255,255</Property>
+          <Property Name="Text">Cyclic Timing</Property>
+          <Property Name="ForeColor">0,0,0</Property>
+        </Object>
+        <Property Name="Name">GroupBoxControl981</Property>
+        <Property Name="Size">300,75</Property>
+        <Property Name="Location">5,337</Property>
+        <Property Name="UseWindowsStyle">False</Property>
+        <Property Name="BackColor">255,255,255</Property>
+        <Property Name="Text">Message RLSM_UDSResponse</Property>
+        <Property Name="ForeColor">0,0,0</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl983" ControlName="GroupBoxControl983" Children="Controls">
+        <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl984" ControlName="GroupBoxControl984" Children="Controls">
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl257" ControlName="CheckBoxControl257" Children="Controls">
+            <Property Name="Name">CheckBoxControl257</Property>
+            <Property Name="Size">60,17</Property>
+            <Property Name="Location">5,22</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">Enable</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLSM::MESSAGES::RLSM_Version::TIMINGS;;;EnableCyclic;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl435" ControlName="RadioButtonControl435" Children="Controls">
+            <Property Name="Name">RadioButtonControl435</Property>
+            <Property Name="Size">95,34</Property>
+            <Property Name="Location">65,14</Property>
+            <Property Name="Text">Normal Period
+(10000 ms)</Property>
+            <Property Name="SwitchValue">0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLSM::MESSAGES::RLSM_Version::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl436" ControlName="RadioButtonControl436" Children="Controls">
+            <Property Name="Name">RadioButtonControl436</Property>
+            <Property Name="Size">85,17</Property>
+            <Property Name="Location">160,22</Property>
+            <Property Name="Text">User Period</Property>
+            <Property Name="SwitchValue">-1</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLSM::MESSAGES::RLSM_Version::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl218" ControlName="TextBoxControl218" Children="Controls">
+            <Property Name="Name">TextBoxControl218</Property>
+            <Property Name="Size">40,21</Property>
+            <Property Name="Location">245,22</Property>
+            <Property Name="TextForeColor">0,0,0</Property>
+            <Property Name="BoxForeColor">0,0,0</Property>
+            <Property Name="DescriptionText" />
+            <Property Name="ValueDecimalPlaces">0</Property>
+            <Property Name="BoxTextAlign">Left</Property>
+            <Property Name="BoxBorderStyle">FixedSingle</Property>
+            <Property Name="ValueDisplay">Decimal</Property>
+            <Property Name="AlarmGeneralSettings">1;0;0;0</Property>
+            <Property Name="DisplayLabel">Left</Property>
+            <Property Name="TextBackColor">255,255,255</Property>
+            <Property Name="BoxBackColor">255,255,255</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLSM::MESSAGES::RLSM_Version::TIMINGS;;;CyclePeriod;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Property Name="Name">GroupBoxControl984</Property>
+          <Property Name="Size">290,53</Property>
+          <Property Name="Location">5,17</Property>
+          <Property Name="UseWindowsStyle">False</Property>
+          <Property Name="BackColor">255,255,255</Property>
+          <Property Name="Text">Cyclic Timing</Property>
+          <Property Name="ForeColor">0,0,0</Property>
+        </Object>
+        <Property Name="Name">GroupBoxControl983</Property>
+        <Property Name="Size">300,75</Property>
+        <Property Name="Location">5,417</Property>
+        <Property Name="UseWindowsStyle">False</Property>
+        <Property Name="BackColor">255,255,255</Property>
+        <Property Name="Text">Message RLSM_Version</Property>
+        <Property Name="ForeColor">0,0,0</Property>
+      </Object>
+      <Property Name="Name">GroupBoxControl972</Property>
+      <Property Name="Size">310,497</Property>
+      <Property Name="Location">5,5</Property>
+      <Property Name="UseWindowsStyle">False</Property>
+      <Property Name="BackColor">255,255,255</Property>
+      <Property Name="Text">TX Messages of RLSM</Property>
+      <Property Name="ForeColor">0,0,0</Property>
+    </Object>
+    <Property Name="Panel">Panel</Property>
+    <Property Name="Size">320,507</Property>
+    <Property Name="BackColor">255,255,255</Property>
+  </Object>
+</Panel>

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Panel Type="Vector.CANalyzer.Panels.PanelSerializer, Vector.CANalyzer.Panels.Serializer, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null">
+  <Object Type="Vector.CANalyzer.Panels.Runtime.Panel, Vector.CANalyzer.Panels.Common, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="Panel" ControlName="ILCtrl CyclicTiming body DOSRR" Children="Controls">
+    <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl515" ControlName="GroupBoxControl515" Children="Controls">
+      <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl516" ControlName="GroupBoxControl516" Children="Controls">
+        <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl517" ControlName="GroupBoxControl517" Children="Controls">
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl163" ControlName="CheckBoxControl163" Children="Controls">
+            <Property Name="Name">CheckBoxControl163</Property>
+            <Property Name="Size">60,17</Property>
+            <Property Name="Location">5,22</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">Enable</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_DOSRR::MESSAGES::DOSRR_DoorStatus::TIMINGS;;;EnableCyclic;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl247" ControlName="RadioButtonControl247" Children="Controls">
+            <Property Name="Name">RadioButtonControl247</Property>
+            <Property Name="Size">95,34</Property>
+            <Property Name="Location">65,14</Property>
+            <Property Name="Text">Normal Period
+(100 ms)</Property>
+            <Property Name="SwitchValue">0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_DOSRR::MESSAGES::DOSRR_DoorStatus::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl248" ControlName="RadioButtonControl248" Children="Controls">
+            <Property Name="Name">RadioButtonControl248</Property>
+            <Property Name="Size">85,17</Property>
+            <Property Name="Location">160,22</Property>
+            <Property Name="Text">User Period</Property>
+            <Property Name="SwitchValue">-1</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_DOSRR::MESSAGES::DOSRR_DoorStatus::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl124" ControlName="TextBoxControl124" Children="Controls">
+            <Property Name="Name">TextBoxControl124</Property>
+            <Property Name="Size">40,21</Property>
+            <Property Name="Location">245,22</Property>
+            <Property Name="TextForeColor">0,0,0</Property>
+            <Property Name="BoxForeColor">0,0,0</Property>
+            <Property Name="DescriptionText" />
+            <Property Name="ValueDecimalPlaces">0</Property>
+            <Property Name="BoxTextAlign">Left</Property>
+            <Property Name="BoxBorderStyle">FixedSingle</Property>
+            <Property Name="ValueDisplay">Decimal</Property>
+            <Property Name="AlarmGeneralSettings">1;0;0;0</Property>
+            <Property Name="DisplayLabel">Left</Property>
+            <Property Name="TextBackColor">255,255,255</Property>
+            <Property Name="BoxBackColor">255,255,255</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_DOSRR::MESSAGES::DOSRR_DoorStatus::TIMINGS;;;CyclePeriod;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Property Name="Name">GroupBoxControl517</Property>
+          <Property Name="Size">290,53</Property>
+          <Property Name="Location">5,17</Property>
+          <Property Name="UseWindowsStyle">False</Property>
+          <Property Name="BackColor">255,255,255</Property>
+          <Property Name="Text">Cyclic Timing</Property>
+          <Property Name="ForeColor">0,0,0</Property>
+        </Object>
+        <Property Name="Name">GroupBoxControl516</Property>
+        <Property Name="Size">300,75</Property>
+        <Property Name="Location">5,17</Property>
+        <Property Name="UseWindowsStyle">False</Property>
+        <Property Name="BackColor">255,255,255</Property>
+        <Property Name="Text">Message DOSRR_DoorStatus</Property>
+        <Property Name="ForeColor">0,0,0</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl518" ControlName="GroupBoxControl518" Children="Controls">
+        <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl519" ControlName="GroupBoxControl519" Children="Controls">
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl164" ControlName="CheckBoxControl164" Children="Controls">
+            <Property Name="Name">CheckBoxControl164</Property>
+            <Property Name="Size">60,17</Property>
+            <Property Name="Location">5,22</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">Enable</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_DOSRR::MESSAGES::DOSRR_UDSResponse::TIMINGS;;;EnableCyclic;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl249" ControlName="RadioButtonControl249" Children="Controls">
+            <Property Name="Name">RadioButtonControl249</Property>
+            <Property Name="Size">95,34</Property>
+            <Property Name="Location">65,14</Property>
+            <Property Name="Text">Normal Period
+(0 ms)</Property>
+            <Property Name="SwitchValue">0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_DOSRR::MESSAGES::DOSRR_UDSResponse::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.RadioButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="RadioButtonControl250" ControlName="RadioButtonControl250" Children="Controls">
+            <Property Name="Name">RadioButtonControl250</Property>
+            <Property Name="Size">85,17</Property>
+            <Property Name="Location">160,22</Property>
+            <Property Name="Text">User Period</Property>
+            <Property Name="SwitchValue">-1</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_DOSRR::MESSAGES::DOSRR_UDSResponse::TIMINGS;;;SelectedPeriod;1;;;-1</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.TextBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=7.1.94.0, Culture=neutral, PublicKeyToken=null" Name="TextBoxControl125" ControlName="TextBoxControl125" Children="Controls">
+            <Property Name="Name">TextBoxControl125</Property>
+            <Property Name="Size">40,21</Property>
+            <Property Name="Location">245,22</Property>
+            <Property Name="TextForeColor">0,0,0</Property>
+            <Property Name="BoxForeColor">0,0,0</Property>
+            <Property Name="DescriptionText" />
+            <Property Name="ValueDecimalPlaces">0</Property>
+            <Property Name="BoxTextAlign">Left</Property>
+            <Property Name="BoxBorderStyle">FixedSingle</Property>
+            <Property Name="ValueDisplay">Decimal</Property>
+            <Property Name="AlarmGeneralSettings">1;0;0;0</Property>
+            <Property Name="DisplayLabel">Left</Property>
+            <Property Name="TextBackColor">255,255,255</Property>
+            <Property Name="BoxBackColor">255,255,255</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_DOSRR::MESSAGES::DOSRR_UDSResponse::TIMINGS;;;CyclePeriod;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Property Name="Name">GroupBoxControl519</Property>
+          <Property Name="Size">290,53</Property>
+          <Property Name="Location">5,17</Property>
+          <Property Name="UseWindowsStyle">False</Property>
+          <Property Name="BackColor">255,255,255</Property>
+          <Property Name="Text">Cyclic Timing</Property>
+          <Property Name="ForeColor">0,0,0</Property>
+        </Object>
+        <Property Name="Name">GroupBoxControl518</Property>
+        <Property Name="Size">300,75</Property>
+        <Property Name="Location">5,97</Property>
+        <Property Name="UseWindowsStyle">False</Property>
+        <Property Name="BackColor">255,255,255</Property>
+        <Property Name="Text">Message DOSRR_UDSResponse</Property>
+        <Property Name="ForeColor">0,0,0</Property>
+      </Object>
+      <Property Name="Name">GroupBoxControl515</Property>
+      <Property Name="Size">310,177</Property>
+      <Property Name="Location">5,5</Property>
+      <Property Name="UseWindowsStyle">False</Property>
+      <Property Name="BackColor">255,255,255</Property>
+      <Property Name="Text">TX Messages of DOSRR</Property>
+      <Property Name="ForeColor">0,0,0</Property>
+    </Object>
+    <Property Name="Panel">Panel</Property>
+    <Property Name="Size">320,187</Property>
+    <Property Name="BackColor">255,255,255</Property>
+  </Object>
+</Panel>

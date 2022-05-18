@@ -1,0 +1,1277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Panel Type="Vector.CANalyzer.Panels.PanelSerializer, Vector.CANalyzer.Panels.Serializer, Version=8.0.35, Culture=neutral, PublicKeyToken=null">
+  <Object Type="Vector.CANalyzer.Panels.Runtime.Panel, Vector.CANalyzer.Panels.Common, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="Panel" ControlName="MainPanel" Children="Controls">
+    <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl1" ControlName="CAN_IL_States" Children="Controls">
+      <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="SwitchControl2" ControlName="SwitchControl2">
+        <Property Name="Name">SwitchControl2</Property>
+        <Property Name="Size">23,30</Property>
+        <Property Name="Location">5,17</Property>
+        <Property Name="Activation">Left</Property>
+        <Property Name="SymbolConfiguration">4;16;IL;;;Klemme15;1;;;-1</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="StaticTextControl1" ControlName="StaticTextControl1" Children="Controls">
+        <Property Name="Name">StaticTextControl1</Property>
+        <Property Name="Size">87,17</Property>
+        <Property Name="Location">28,25</Property>
+        <Property Name="BackColor">255,255,255</Property>
+        <Property Name="TextAlign">TopLeft</Property>
+        <Property Name="BorderStyle">None</Property>
+        <Property Name="Text">Ignition (KL15)</Property>
+        <Property Name="ForeColor">0,0,0</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="SwitchControl3" ControlName="SwitchControl3">
+        <Property Name="Name">SwitchControl3</Property>
+        <Property Name="Size">23,30</Property>
+        <Property Name="Location">115,17</Property>
+        <Property Name="Activation">Left</Property>
+        <Property Name="SymbolConfiguration">4;16;IL;;;Klemme30;1;;;-1</Property>
+      </Object>
+      <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="StaticTextControl2" ControlName="StaticTextControl2" Children="Controls">
+        <Property Name="Name">StaticTextControl2</Property>
+        <Property Name="Size">82,17</Property>
+        <Property Name="Location">138,25</Property>
+        <Property Name="BackColor">255,255,255</Property>
+        <Property Name="TextAlign">TopLeft</Property>
+        <Property Name="BorderStyle">None</Property>
+        <Property Name="Text">Power (KL30)</Property>
+        <Property Name="ForeColor">0,0,0</Property>
+      </Object>
+      <Property Name="Name">GroupBoxControl1</Property>
+      <Property Name="Size">225,52</Property>
+      <Property Name="Location">5,5</Property>
+      <Property Name="UseWindowsStyle">False</Property>
+      <Property Name="BackColor">255,255,255</Property>
+      <Property Name="Text">Global States</Property>
+      <Property Name="ForeColor">0,0,0</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.VectorTabControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="VectorTabControl1" ControlName="Global_BusTabControl" Children="Controls">
+      <Object Type="Vector.CANalyzer.Panels.Design.VectorTabPage, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="VectorTabPage1" ControlName="VectorTabPage1" Children="Controls">
+        <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl2" ControlName="GroupBoxControl2" Children="Controls">
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl1" ControlName="CheckBoxControl1" Children="Controls">
+            <Property Name="Name">CheckBoxControl1</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,17</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">ACCL</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_ACCL;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl2" ControlName="CheckBoxControl2" Children="Controls">
+            <Property Name="Name">CheckBoxControl2</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,34</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">BGW</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_BGW;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl3" ControlName="CheckBoxControl3" Children="Controls">
+            <Property Name="Name">CheckBoxControl3</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,51</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">DBPC</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_DBPC;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl4" ControlName="CheckBoxControl4" Children="Controls">
+            <Property Name="Name">CheckBoxControl4</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,68</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">DCFL</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_DCFL;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl5" ControlName="CheckBoxControl5" Children="Controls">
+            <Property Name="Name">CheckBoxControl5</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,85</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">DCFR</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_DCFR;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl6" ControlName="CheckBoxControl6" Children="Controls">
+            <Property Name="Name">CheckBoxControl6</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,102</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">DCRL</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_DCRL;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl7" ControlName="CheckBoxControl7" Children="Controls">
+            <Property Name="Name">CheckBoxControl7</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,119</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">DCRR</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_DCRR;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl8" ControlName="CheckBoxControl8" Children="Controls">
+            <Property Name="Name">CheckBoxControl8</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,136</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">DEMFL</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_DEMFL;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl9" ControlName="CheckBoxControl9" Children="Controls">
+            <Property Name="Name">CheckBoxControl9</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,153</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">DEMFR</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_DEMFR;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl10" ControlName="CheckBoxControl10" Children="Controls">
+            <Property Name="Name">CheckBoxControl10</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,170</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">DEMRL</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_DEMRL;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl11" ControlName="CheckBoxControl11" Children="Controls">
+            <Property Name="Name">CheckBoxControl11</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,187</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">DEMRR</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_DEMRR;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl12" ControlName="CheckBoxControl12" Children="Controls">
+            <Property Name="Name">CheckBoxControl12</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,204</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">DOSFL</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_DOSFL;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl13" ControlName="CheckBoxControl13" Children="Controls">
+            <Property Name="Name">CheckBoxControl13</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,221</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">DOSFR</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_DOSFR;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl14" ControlName="CheckBoxControl14" Children="Controls">
+            <Property Name="Name">CheckBoxControl14</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,238</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">DOSRL</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_DOSRL;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl15" ControlName="CheckBoxControl15" Children="Controls">
+            <Property Name="Name">CheckBoxControl15</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,255</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">DOSRR</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_DOSRR;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl16" ControlName="CheckBoxControl16" Children="Controls">
+            <Property Name="Name">CheckBoxControl16</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,272</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">DSM</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_DSM;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl17" ControlName="CheckBoxControl17" Children="Controls">
+            <Property Name="Name">CheckBoxControl17</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,289</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">ECPM</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_ECPM;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl18" ControlName="CheckBoxControl18" Children="Controls">
+            <Property Name="Name">CheckBoxControl18</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,306</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">FBCM</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_FBCM;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl19" ControlName="CheckBoxControl19" Children="Controls">
+            <Property Name="Name">CheckBoxControl19</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,323</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">FFL</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_FFL;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl20" ControlName="CheckBoxControl20" Children="Controls">
+            <Property Name="Name">CheckBoxControl20</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,340</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">FLDC</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_FLDC;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl21" ControlName="CheckBoxControl21" Children="Controls">
+            <Property Name="Name">CheckBoxControl21</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,357</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">FRDC</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_FRDC;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl22" ControlName="CheckBoxControl22" Children="Controls">
+            <Property Name="Name">CheckBoxControl22</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,374</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">HLL</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_HLL;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl23" ControlName="CheckBoxControl23" Children="Controls">
+            <Property Name="Name">CheckBoxControl23</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,391</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">HLR</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_HLR;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl24" ControlName="CheckBoxControl24" Children="Controls">
+            <Property Name="Name">CheckBoxControl24</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,408</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">HUD</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_HUD;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl25" ControlName="CheckBoxControl25" Children="Controls">
+            <Property Name="Name">CheckBoxControl25</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,425</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">IHUB</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_IHUB;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl26" ControlName="CheckBoxControl26" Children="Controls">
+            <Property Name="Name">CheckBoxControl26</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,442</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">LGL</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_LGL;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl27" ControlName="CheckBoxControl27" Children="Controls">
+            <Property Name="Name">CheckBoxControl27</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,459</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">PBPC</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_PBPC;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl28" ControlName="CheckBoxControl28" Children="Controls">
+            <Property Name="Name">CheckBoxControl28</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,476</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">PSM</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_PSM;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl29" ControlName="CheckBoxControl29" Children="Controls">
+            <Property Name="Name">CheckBoxControl29</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,493</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">RCCL</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RCCL;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl30" ControlName="CheckBoxControl30" Children="Controls">
+            <Property Name="Name">CheckBoxControl30</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,510</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">RCCR</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RCCR;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl31" ControlName="CheckBoxControl31" Children="Controls">
+            <Property Name="Name">CheckBoxControl31</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,527</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">RCLL</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RCLL;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl32" ControlName="CheckBoxControl32" Children="Controls">
+            <Property Name="Name">CheckBoxControl32</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,544</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">RCLR</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RCLR;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl33" ControlName="CheckBoxControl33" Children="Controls">
+            <Property Name="Name">CheckBoxControl33</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,561</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">RLDC</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLDC;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl34" ControlName="CheckBoxControl34" Children="Controls">
+            <Property Name="Name">CheckBoxControl34</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,578</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">RLSM</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RLSM;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl35" ControlName="CheckBoxControl35" Children="Controls">
+            <Property Name="Name">CheckBoxControl35</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,595</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">RRDC</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RRDC;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl36" ControlName="CheckBoxControl36" Children="Controls">
+            <Property Name="Name">CheckBoxControl36</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,612</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">RRSM</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_RRSM;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl37" ControlName="CheckBoxControl37" Children="Controls">
+            <Property Name="Name">CheckBoxControl37</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,629</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">SCAM</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_SCAM;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl38" ControlName="CheckBoxControl38" Children="Controls">
+            <Property Name="Name">CheckBoxControl38</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,646</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">TOOL</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1::NODES::N_TOOL;;;EnableNode;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Property Name="Name">GroupBoxControl2</Property>
+          <Property Name="Size">130,668</Property>
+          <Property Name="Location">5,5</Property>
+          <Property Name="UseWindowsStyle">False</Property>
+          <Property Name="BackColor">255,255,255</Property>
+          <Property Name="Text">Enable Node</Property>
+          <Property Name="ForeColor">0,0,0</Property>
+        </Object>
+        <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl3" ControlName="GroupBoxControl3" Children="Controls">
+          <Object Type="Vector.CANalyzer.Panels.Design.CheckBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="CheckBoxControl39" ControlName="CheckBoxControl39" Children="Controls">
+            <Property Name="Name">CheckBoxControl39</Property>
+            <Property Name="Size">120,17</Property>
+            <Property Name="Location">5,17</Property>
+            <Property Name="BackColor">255,255,255</Property>
+            <Property Name="Text">Enable all nodes</Property>
+            <Property Name="CheckValue">1</Property>
+            <Property Name="UncheckValue">0</Property>
+            <Property Name="ForeColor">0,0,0</Property>
+            <Property Name="SymbolConfiguration">4;16;IL_CAN1;;;enable_AllNodes;1;;;-1</Property>
+            <Property Name="ReadOnlyControl">False</Property>
+          </Object>
+          <Property Name="Name">GroupBoxControl3</Property>
+          <Property Name="Size">130,39</Property>
+          <Property Name="Location">5,678</Property>
+          <Property Name="UseWindowsStyle">False</Property>
+          <Property Name="BackColor">255,255,255</Property>
+          <Property Name="Text">Global Control</Property>
+          <Property Name="ForeColor">0,0,0</Property>
+        </Object>
+        <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl1" ControlName="PanelButtonControl1" Children="Controls">
+          <Property Name="Name">PanelButtonControl1</Property>
+          <Property Name="Size">120,21</Property>
+          <Property Name="Location">5,722</Property>
+          <Property Name="ClosePanels">False</Property>
+          <Property Name="PanelList">1;1;NM Panel CAN1.xvp</Property>
+          <Property Name="Text">NM Panel CAN1</Property>
+        </Object>
+        <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl2" ControlName="PanelButtonControl2" Children="Controls">
+          <Property Name="Name">PanelButtonControl2</Property>
+          <Property Name="Size">120,21</Property>
+          <Property Name="Location">5,743</Property>
+          <Property Name="ClosePanels">True</Property>
+          <Property Name="PanelList">1;0</Property>
+          <Property Name="Text">Close all panels</Property>
+        </Object>
+        <Object Type="Vector.CANalyzer.Panels.Design.ButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="ButtonControl1" ControlName="ButtonControl1" Children="Controls">
+          <Property Name="Name">ButtonControl1</Property>
+          <Property Name="Size">120,21</Property>
+          <Property Name="Location">5,764</Property>
+          <Property Name="Text">Close Node Panels</Property>
+          <Property Name="SymbolConfiguration">4;16;NM_CAN1::StateControl;;;CloseNodePanels;1;;;-1</Property>
+        </Object>
+        <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl4" ControlName="GroupBoxControl4" Children="Controls">
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl3" ControlName="PanelButtonControl3" Children="Controls">
+            <Property Name="Name">PanelButtonControl3</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,17</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::ACCL</Property>
+            <Property Name="NetworkList">1;1;body::ACCL</Property>
+            <Property Name="Text">ACCL</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl4" ControlName="PanelButtonControl4" Children="Controls">
+            <Property Name="Name">PanelButtonControl4</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,38</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::BGW</Property>
+            <Property Name="NetworkList">1;1;body::BGW</Property>
+            <Property Name="Text">BGW</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl5" ControlName="PanelButtonControl5" Children="Controls">
+            <Property Name="Name">PanelButtonControl5</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,59</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::DBPC</Property>
+            <Property Name="NetworkList">1;1;body::DBPC</Property>
+            <Property Name="Text">DBPC</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl6" ControlName="PanelButtonControl6" Children="Controls">
+            <Property Name="Name">PanelButtonControl6</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,80</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::DCFL</Property>
+            <Property Name="NetworkList">1;1;body::DCFL</Property>
+            <Property Name="Text">DCFL</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl7" ControlName="PanelButtonControl7" Children="Controls">
+            <Property Name="Name">PanelButtonControl7</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,101</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::DCFR</Property>
+            <Property Name="NetworkList">1;1;body::DCFR</Property>
+            <Property Name="Text">DCFR</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl8" ControlName="PanelButtonControl8" Children="Controls">
+            <Property Name="Name">PanelButtonControl8</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,122</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::DCRL</Property>
+            <Property Name="NetworkList">1;1;body::DCRL</Property>
+            <Property Name="Text">DCRL</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl9" ControlName="PanelButtonControl9" Children="Controls">
+            <Property Name="Name">PanelButtonControl9</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,143</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::DCRR</Property>
+            <Property Name="NetworkList">1;1;body::DCRR</Property>
+            <Property Name="Text">DCRR</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl10" ControlName="PanelButtonControl10" Children="Controls">
+            <Property Name="Name">PanelButtonControl10</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,164</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::DEMFL</Property>
+            <Property Name="NetworkList">1;1;body::DEMFL</Property>
+            <Property Name="Text">DEMFL</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl11" ControlName="PanelButtonControl11" Children="Controls">
+            <Property Name="Name">PanelButtonControl11</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,185</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::DEMFR</Property>
+            <Property Name="NetworkList">1;1;body::DEMFR</Property>
+            <Property Name="Text">DEMFR</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl12" ControlName="PanelButtonControl12" Children="Controls">
+            <Property Name="Name">PanelButtonControl12</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,206</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::DEMRL</Property>
+            <Property Name="NetworkList">1;1;body::DEMRL</Property>
+            <Property Name="Text">DEMRL</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl13" ControlName="PanelButtonControl13" Children="Controls">
+            <Property Name="Name">PanelButtonControl13</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,227</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::DEMRR</Property>
+            <Property Name="NetworkList">1;1;body::DEMRR</Property>
+            <Property Name="Text">DEMRR</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl14" ControlName="PanelButtonControl14" Children="Controls">
+            <Property Name="Name">PanelButtonControl14</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,248</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::DOSFL</Property>
+            <Property Name="NetworkList">1;1;body::DOSFL</Property>
+            <Property Name="Text">DOSFL</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl15" ControlName="PanelButtonControl15" Children="Controls">
+            <Property Name="Name">PanelButtonControl15</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,269</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::DOSFR</Property>
+            <Property Name="NetworkList">1;1;body::DOSFR</Property>
+            <Property Name="Text">DOSFR</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl16" ControlName="PanelButtonControl16" Children="Controls">
+            <Property Name="Name">PanelButtonControl16</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,290</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::DOSRL</Property>
+            <Property Name="NetworkList">1;1;body::DOSRL</Property>
+            <Property Name="Text">DOSRL</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl17" ControlName="PanelButtonControl17" Children="Controls">
+            <Property Name="Name">PanelButtonControl17</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,311</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::DOSRR</Property>
+            <Property Name="NetworkList">1;1;body::DOSRR</Property>
+            <Property Name="Text">DOSRR</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl18" ControlName="PanelButtonControl18" Children="Controls">
+            <Property Name="Name">PanelButtonControl18</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,332</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::DSM</Property>
+            <Property Name="NetworkList">1;1;body::DSM</Property>
+            <Property Name="Text">DSM</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl19" ControlName="PanelButtonControl19" Children="Controls">
+            <Property Name="Name">PanelButtonControl19</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,353</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::ECPM</Property>
+            <Property Name="NetworkList">1;1;body::ECPM</Property>
+            <Property Name="Text">ECPM</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl20" ControlName="PanelButtonControl20" Children="Controls">
+            <Property Name="Name">PanelButtonControl20</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,374</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::FBCM</Property>
+            <Property Name="NetworkList">1;1;body::FBCM</Property>
+            <Property Name="Text">FBCM</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl21" ControlName="PanelButtonControl21" Children="Controls">
+            <Property Name="Name">PanelButtonControl21</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,395</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::FFL</Property>
+            <Property Name="NetworkList">1;1;body::FFL</Property>
+            <Property Name="Text">FFL</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl22" ControlName="PanelButtonControl22" Children="Controls">
+            <Property Name="Name">PanelButtonControl22</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,416</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::FLDC</Property>
+            <Property Name="NetworkList">1;1;body::FLDC</Property>
+            <Property Name="Text">FLDC</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl23" ControlName="PanelButtonControl23" Children="Controls">
+            <Property Name="Name">PanelButtonControl23</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,437</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::FRDC</Property>
+            <Property Name="NetworkList">1;1;body::FRDC</Property>
+            <Property Name="Text">FRDC</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl24" ControlName="PanelButtonControl24" Children="Controls">
+            <Property Name="Name">PanelButtonControl24</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,458</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::HLL</Property>
+            <Property Name="NetworkList">1;1;body::HLL</Property>
+            <Property Name="Text">HLL</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl25" ControlName="PanelButtonControl25" Children="Controls">
+            <Property Name="Name">PanelButtonControl25</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,479</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::HLR</Property>
+            <Property Name="NetworkList">1;1;body::HLR</Property>
+            <Property Name="Text">HLR</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl26" ControlName="PanelButtonControl26" Children="Controls">
+            <Property Name="Name">PanelButtonControl26</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,500</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::HUD</Property>
+            <Property Name="NetworkList">1;1;body::HUD</Property>
+            <Property Name="Text">HUD</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl27" ControlName="PanelButtonControl27" Children="Controls">
+            <Property Name="Name">PanelButtonControl27</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,521</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::IHUB</Property>
+            <Property Name="NetworkList">1;1;body::IHUB</Property>
+            <Property Name="Text">IHUB</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl28" ControlName="PanelButtonControl28" Children="Controls">
+            <Property Name="Name">PanelButtonControl28</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,542</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::LGL</Property>
+            <Property Name="NetworkList">1;1;body::LGL</Property>
+            <Property Name="Text">LGL</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl29" ControlName="PanelButtonControl29" Children="Controls">
+            <Property Name="Name">PanelButtonControl29</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,563</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::PBPC</Property>
+            <Property Name="NetworkList">1;1;body::PBPC</Property>
+            <Property Name="Text">PBPC</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl30" ControlName="PanelButtonControl30" Children="Controls">
+            <Property Name="Name">PanelButtonControl30</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,584</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::PSM</Property>
+            <Property Name="NetworkList">1;1;body::PSM</Property>
+            <Property Name="Text">PSM</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl31" ControlName="PanelButtonControl31" Children="Controls">
+            <Property Name="Name">PanelButtonControl31</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,605</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::RCCL</Property>
+            <Property Name="NetworkList">1;1;body::RCCL</Property>
+            <Property Name="Text">RCCL</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl32" ControlName="PanelButtonControl32" Children="Controls">
+            <Property Name="Name">PanelButtonControl32</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,626</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::RCCR</Property>
+            <Property Name="NetworkList">1;1;body::RCCR</Property>
+            <Property Name="Text">RCCR</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl33" ControlName="PanelButtonControl33" Children="Controls">
+            <Property Name="Name">PanelButtonControl33</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,647</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::RCLL</Property>
+            <Property Name="NetworkList">1;1;body::RCLL</Property>
+            <Property Name="Text">RCLL</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl34" ControlName="PanelButtonControl34" Children="Controls">
+            <Property Name="Name">PanelButtonControl34</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,668</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::RCLR</Property>
+            <Property Name="NetworkList">1;1;body::RCLR</Property>
+            <Property Name="Text">RCLR</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl35" ControlName="PanelButtonControl35" Children="Controls">
+            <Property Name="Name">PanelButtonControl35</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,689</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::RLDC</Property>
+            <Property Name="NetworkList">1;1;body::RLDC</Property>
+            <Property Name="Text">RLDC</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl36" ControlName="PanelButtonControl36" Children="Controls">
+            <Property Name="Name">PanelButtonControl36</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,710</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::RLSM</Property>
+            <Property Name="NetworkList">1;1;body::RLSM</Property>
+            <Property Name="Text">RLSM</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl37" ControlName="PanelButtonControl37" Children="Controls">
+            <Property Name="Name">PanelButtonControl37</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,731</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::RRDC</Property>
+            <Property Name="NetworkList">1;1;body::RRDC</Property>
+            <Property Name="Text">RRDC</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl38" ControlName="PanelButtonControl38" Children="Controls">
+            <Property Name="Name">PanelButtonControl38</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,752</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::RRSM</Property>
+            <Property Name="NetworkList">1;1;body::RRSM</Property>
+            <Property Name="Text">RRSM</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl39" ControlName="PanelButtonControl39" Children="Controls">
+            <Property Name="Name">PanelButtonControl39</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,773</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::SCAM</Property>
+            <Property Name="NetworkList">1;1;body::SCAM</Property>
+            <Property Name="Text">SCAM</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl40" ControlName="PanelButtonControl40" Children="Controls">
+            <Property Name="Name">PanelButtonControl40</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,794</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;0</Property>
+            <Property Name="NodeList">1;1;body::TOOL</Property>
+            <Property Name="NetworkList">1;1;body::TOOL</Property>
+            <Property Name="Text">TOOL</Property>
+          </Object>
+          <Property Name="Name">GroupBoxControl4</Property>
+          <Property Name="Size">130,820</Property>
+          <Property Name="Location">140,5</Property>
+          <Property Name="UseWindowsStyle">False</Property>
+          <Property Name="BackColor">255,255,255</Property>
+          <Property Name="Text">Node Signal Panels</Property>
+          <Property Name="ForeColor">0,0,0</Property>
+        </Object>
+        <Object Type="Vector.CANalyzer.Panels.Design.GroupBoxControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="GroupBoxControl5" ControlName="GroupBoxControl5" Children="Controls">
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl41" ControlName="PanelButtonControl41" Children="Controls">
+            <Property Name="Name">PanelButtonControl41</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,17</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body ACCL.xvp</Property>
+            <Property Name="Text">ACCL</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl42" ControlName="PanelButtonControl42" Children="Controls">
+            <Property Name="Name">PanelButtonControl42</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,38</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body BGW.xvp</Property>
+            <Property Name="Text">BGW</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl43" ControlName="PanelButtonControl43" Children="Controls">
+            <Property Name="Name">PanelButtonControl43</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,59</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body DBPC.xvp</Property>
+            <Property Name="Text">DBPC</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl44" ControlName="PanelButtonControl44" Children="Controls">
+            <Property Name="Name">PanelButtonControl44</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,80</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body DCFL.xvp</Property>
+            <Property Name="Text">DCFL</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl45" ControlName="PanelButtonControl45" Children="Controls">
+            <Property Name="Name">PanelButtonControl45</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,101</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body DCFR.xvp</Property>
+            <Property Name="Text">DCFR</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl46" ControlName="PanelButtonControl46" Children="Controls">
+            <Property Name="Name">PanelButtonControl46</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,122</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body DCRL.xvp</Property>
+            <Property Name="Text">DCRL</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl47" ControlName="PanelButtonControl47" Children="Controls">
+            <Property Name="Name">PanelButtonControl47</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,143</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body DCRR.xvp</Property>
+            <Property Name="Text">DCRR</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl48" ControlName="PanelButtonControl48" Children="Controls">
+            <Property Name="Name">PanelButtonControl48</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,164</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body DEMFL.xvp</Property>
+            <Property Name="Text">DEMFL</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl49" ControlName="PanelButtonControl49" Children="Controls">
+            <Property Name="Name">PanelButtonControl49</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,185</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body DEMFR.xvp</Property>
+            <Property Name="Text">DEMFR</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl50" ControlName="PanelButtonControl50" Children="Controls">
+            <Property Name="Name">PanelButtonControl50</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,206</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body DEMRL.xvp</Property>
+            <Property Name="Text">DEMRL</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl51" ControlName="PanelButtonControl51" Children="Controls">
+            <Property Name="Name">PanelButtonControl51</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,227</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body DEMRR.xvp</Property>
+            <Property Name="Text">DEMRR</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl52" ControlName="PanelButtonControl52" Children="Controls">
+            <Property Name="Name">PanelButtonControl52</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,248</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body DOSFL.xvp</Property>
+            <Property Name="Text">DOSFL</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl53" ControlName="PanelButtonControl53" Children="Controls">
+            <Property Name="Name">PanelButtonControl53</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,269</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body DOSFR.xvp</Property>
+            <Property Name="Text">DOSFR</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl54" ControlName="PanelButtonControl54" Children="Controls">
+            <Property Name="Name">PanelButtonControl54</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,290</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body DOSRL.xvp</Property>
+            <Property Name="Text">DOSRL</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl55" ControlName="PanelButtonControl55" Children="Controls">
+            <Property Name="Name">PanelButtonControl55</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,311</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body DOSRR.xvp</Property>
+            <Property Name="Text">DOSRR</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl56" ControlName="PanelButtonControl56" Children="Controls">
+            <Property Name="Name">PanelButtonControl56</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,332</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body DSM.xvp</Property>
+            <Property Name="Text">DSM</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl57" ControlName="PanelButtonControl57" Children="Controls">
+            <Property Name="Name">PanelButtonControl57</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,353</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body ECPM.xvp</Property>
+            <Property Name="Text">ECPM</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl58" ControlName="PanelButtonControl58" Children="Controls">
+            <Property Name="Name">PanelButtonControl58</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,374</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body FBCM.xvp</Property>
+            <Property Name="Text">FBCM</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl59" ControlName="PanelButtonControl59" Children="Controls">
+            <Property Name="Name">PanelButtonControl59</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,395</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body FFL.xvp</Property>
+            <Property Name="Text">FFL</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl60" ControlName="PanelButtonControl60" Children="Controls">
+            <Property Name="Name">PanelButtonControl60</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,416</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body FLDC.xvp</Property>
+            <Property Name="Text">FLDC</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl61" ControlName="PanelButtonControl61" Children="Controls">
+            <Property Name="Name">PanelButtonControl61</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,437</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body FRDC.xvp</Property>
+            <Property Name="Text">FRDC</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl62" ControlName="PanelButtonControl62" Children="Controls">
+            <Property Name="Name">PanelButtonControl62</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,458</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body HLL.xvp</Property>
+            <Property Name="Text">HLL</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl63" ControlName="PanelButtonControl63" Children="Controls">
+            <Property Name="Name">PanelButtonControl63</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,479</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body HLR.xvp</Property>
+            <Property Name="Text">HLR</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl64" ControlName="PanelButtonControl64" Children="Controls">
+            <Property Name="Name">PanelButtonControl64</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,500</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body HUD.xvp</Property>
+            <Property Name="Text">HUD</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl65" ControlName="PanelButtonControl65" Children="Controls">
+            <Property Name="Name">PanelButtonControl65</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,521</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body IHUB.xvp</Property>
+            <Property Name="Text">IHUB</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl66" ControlName="PanelButtonControl66" Children="Controls">
+            <Property Name="Name">PanelButtonControl66</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,542</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body LGL.xvp</Property>
+            <Property Name="Text">LGL</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl67" ControlName="PanelButtonControl67" Children="Controls">
+            <Property Name="Name">PanelButtonControl67</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,563</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body PBPC.xvp</Property>
+            <Property Name="Text">PBPC</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl68" ControlName="PanelButtonControl68" Children="Controls">
+            <Property Name="Name">PanelButtonControl68</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,584</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body PSM.xvp</Property>
+            <Property Name="Text">PSM</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl69" ControlName="PanelButtonControl69" Children="Controls">
+            <Property Name="Name">PanelButtonControl69</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,605</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body RCCL.xvp</Property>
+            <Property Name="Text">RCCL</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl70" ControlName="PanelButtonControl70" Children="Controls">
+            <Property Name="Name">PanelButtonControl70</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,626</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body RCCR.xvp</Property>
+            <Property Name="Text">RCCR</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl71" ControlName="PanelButtonControl71" Children="Controls">
+            <Property Name="Name">PanelButtonControl71</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,647</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body RCLL.xvp</Property>
+            <Property Name="Text">RCLL</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl72" ControlName="PanelButtonControl72" Children="Controls">
+            <Property Name="Name">PanelButtonControl72</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,668</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body RCLR.xvp</Property>
+            <Property Name="Text">RCLR</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl73" ControlName="PanelButtonControl73" Children="Controls">
+            <Property Name="Name">PanelButtonControl73</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,689</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body RLDC.xvp</Property>
+            <Property Name="Text">RLDC</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl74" ControlName="PanelButtonControl74" Children="Controls">
+            <Property Name="Name">PanelButtonControl74</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,710</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body RLSM.xvp</Property>
+            <Property Name="Text">RLSM</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl75" ControlName="PanelButtonControl75" Children="Controls">
+            <Property Name="Name">PanelButtonControl75</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,731</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body RRDC.xvp</Property>
+            <Property Name="Text">RRDC</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl76" ControlName="PanelButtonControl76" Children="Controls">
+            <Property Name="Name">PanelButtonControl76</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,752</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body RRSM.xvp</Property>
+            <Property Name="Text">RRSM</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl77" ControlName="PanelButtonControl77" Children="Controls">
+            <Property Name="Name">PanelButtonControl77</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,773</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body SCAM.xvp</Property>
+            <Property Name="Text">SCAM</Property>
+          </Object>
+          <Object Type="Vector.CANalyzer.Panels.Design.PanelButtonControl, Vector.CANalyzer.Panels.CommonControls, Version=8.0.35, Culture=neutral, PublicKeyToken=null" Name="PanelButtonControl78" ControlName="PanelButtonControl78" Children="Controls">
+            <Property Name="Name">PanelButtonControl78</Property>
+            <Property Name="Size">120,21</Property>
+            <Property Name="Location">5,794</Property>
+            <Property Name="ClosePanels">False</Property>
+            <Property Name="PanelList">1;1;IL Control Node body TOOL.xvp</Property>
+            <Property Name="Text">TOOL</Property>
+          </Object>
+          <Property Name="Name">GroupBoxControl5</Property>
+          <Property Name="Size">130,820</Property>
+          <Property Name="Location">275,5</Property>
+          <Property Name="UseWindowsStyle">False</Property>
+          <Property Name="BackColor">255,255,255</Property>
+          <Property Name="Text">IL Control</Property>
+          <Property Name="ForeColor">0,0,0</Property>
+        </Object>
+        <Property Name="Name">VectorTabPage1</Property>
+        <Property Name="Size">410,830</Property>
+        <Property Name="Location">5,17</Property>
+        <Property Name="Text">body</Property>
+      </Object>
+      <Property Name="Name">VectorTabControl1</Property>
+      <Property Name="Size">420,852</Property>
+      <Property Name="Location">5,62</Property>
+      <Property Name="Alignment">Top</Property>
+      <Property Name="SymbolConfiguration" />
+      <Property Name="IsVisibleByLoad">True</Property>
+      <Property Name="SendByTabChanging">True</Property>
+    </Object>
+    <Property Name="Panel">Panel</Property>
+    <Property Name="Size">430,919</Property>
+    <Property Name="BackColor">255,255,255</Property>
+  </Object>
+</Panel>
