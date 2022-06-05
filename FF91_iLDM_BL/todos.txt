@@ -1,0 +1,22 @@
+Enrico:
+
+Notes:
+- ECUMode Manufacturing / Production Test (OK, but need to save)
+- Appl CAN Multiplex MSG (CAN Mag implmeneted, but multiplex required)
+- Code/Calibration Area
+- Startup-Time Requirement??
+- Write DIDs -> Flash / Response Pending
+- Stay in Bootloader Flag (Impl)
+- ECU-Reset after Programming Session expires
+- soft reset?
+- Reset Reason ID??? (OK not required)
+- Bootloader Stuck reason?? (OK)
+- Public Key Storage, (kein CCC impl)
+- CRC32 Addresse
+
+
+
+TODOS:
+- Validate Component 0xF000 needs to be fixed, dummy service implemented
+- SA Delay Timer set to 1s to avoid problems with Flash-Tool
+- Up to the last 8 Bytes of the Flashfile will not be flashed

@@ -57,7 +57,7 @@ const ISOUDS_RtnIdType ISOUDS_RtnConfTab[ISOUDS_RTNCONFTABSIZE] =
 	    &ISOUDS_CheckECUMode,
 	    ISOUDS_DIDSS_F_T_F_F,
 	    ISOUDS_TRUE
-	},
+	}
 };
 
 /***************************************************************************************************

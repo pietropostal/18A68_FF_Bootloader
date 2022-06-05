@@ -57,6 +57,10 @@ void App_SetCanBaudrate(uint32_t *CAN_BaudRate)
 
 static void handleCoding()
 {
+#if FF91_FFL
+	eCodingType = Coding_FFL;
+	CanIf_ConfigureIDs( 0x745, 0x746, 0x747, 0x742 );
+#else
     uint16_t         tmpVal;
 
     ADC0_vMain();
@@ -118,6 +122,8 @@ static void handleCoding()
 		eCodingType = Coding_RCLR;
 		CanIf_ConfigureIDs( 0x705, 0x706, 0x707, 0x702 );
 	}
+
+#endif
 
 }
 

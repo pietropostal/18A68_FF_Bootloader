@@ -26,13 +26,16 @@
 #define _PROJECT_CFG_H_
 
 #define BL_VERSION_MAJOR	(1)
-#define BL_VERSION_MINOR	(0)
+#define BL_VERSION_MINOR	(1)
 #define BL_VERSION_RC		(0)
 #define BL_VERSION_SMINOR	(0)
 #define BL_VERSION_BUILD	(0)
 #define BL_VERSION_YEAR		(22)
-#define BL_VERSION_MONTH	(5)
+#define BL_VERSION_MONTH	(6)
 #define BL_VERSION_DAY		(1)
+
+// Defile LOGO ECU
+#define FF91_FFL	0
 
 // For Debug only!
 #define DISABLE_SECURITY_ACCESS (1)

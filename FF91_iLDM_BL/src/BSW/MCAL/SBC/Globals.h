@@ -46,6 +46,7 @@ typedef enum
     ,Coding_RCLL
 	,Coding_RCLR
 	,Coding_LGL
+	,Coding_FFL
     ,Coding_Amount
 }eCodingType_t;
 

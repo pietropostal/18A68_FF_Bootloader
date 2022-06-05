@@ -19,7 +19,7 @@
 
 /************************** Declaration of global symbol and constants ****************************/
 /* Routine Control ID  Configuration Table size */
-#define     ISOUDS_RTNCONFTABSIZE            (4)
+#define     ISOUDS_RTNCONFTABSIZE            (5)
 
 /* DID Defines */
 /* DID Session Selection (DIDSS) Configuration */
