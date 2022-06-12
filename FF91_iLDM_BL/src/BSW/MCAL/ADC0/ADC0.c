@@ -90,7 +90,7 @@ void ADC0_vInit( void )
                                 /* ADIV=0: Prescaler=1 */
                                 /* MODE=1: 12-bit conversion */
 
-    ADC0->CFG2 = 0x00000000CU;  /* SMPLTS=12(default): sample time is 13 ADC clks */
+    ADC0->CFG2 = 0x0000000FFU;  /* SMPLTS=12(default): sample time is 13 ADC clks */
 
     ADC0->SC2 = 0x00000000U;    /* ADTRG=0: SW trigger */
                                 /* ACFE,ACFGT,ACREN=0: Compare func disabled */
