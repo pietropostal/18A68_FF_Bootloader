@@ -142,7 +142,12 @@
 #define ADCchannel_binLEDA           ADC_EXT_CHAN_12
 #define ADCchannel_tempLEDC          ADC_EXT_CHAN_5
 #define ADCchannel_binLEDC           ADC_EXT_CHAN_8
+
+#if GATEWAY_HW
+#define ADCchannel_SYS_CODE          ADC_EXT_CHAN_9
+#else
 #define ADCchannel_SYS_CODE          ADC_EXT_CHAN_4
+#endif
 
 #endif
 
