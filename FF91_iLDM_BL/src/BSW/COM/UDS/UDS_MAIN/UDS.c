@@ -766,7 +766,6 @@ void ISOUDS_Mon (void)
 			}
 		}
 
-
 		// Enrico
 		if( ISOUDS_RespAfterBoot )
 		{
@@ -799,6 +798,23 @@ void ISOUDS_Mon (void)
 			}
 		}
 	}
+	// Enrico added
+	else
+	{
+		// Default Session
+
+		// Check if TP-Status is idle
+		if( ISOTP_IDLE == ISOTP_GetStatus() )
+		{
+			//  Check if application is valid
+			if( 0xA5A5A5A5 == *((uint32 *)FLSHM_APP_VALID_FLAG)  )
+			{
+				// Reset ECU
+				UJA1075A_CMD_performWatchdogReset();
+			}
+		}
+	}
+
 
 	/* Check if timer P2 is running */
 	if (ISOUDS_iTmrP2 > (uint32)0)

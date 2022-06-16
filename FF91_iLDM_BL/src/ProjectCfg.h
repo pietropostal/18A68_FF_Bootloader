@@ -34,11 +34,11 @@
 #define BL_VERSION_MONTH	(6)
 #define BL_VERSION_DAY		(13)
 
-// Defile LOGO ECU
-#define FF91_FFL	0
+// Defile LOGO ECU (1)
+#define FF91_FFL	(0)
 
-// set HW to Gateway
-#define GATEWAY_HW	1
+// set HW to Gateway (1) or ILDM (0)
+#define GATEWAY_HW	(1)
 
 // For Debug only!
 #define DISABLE_SECURITY_ACCESS (1)
