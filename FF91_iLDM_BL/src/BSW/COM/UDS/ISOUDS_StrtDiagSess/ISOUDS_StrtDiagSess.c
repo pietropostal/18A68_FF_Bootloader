@@ -134,10 +134,8 @@ void ISOUDS_StrtDiagSess (ISOUDS_ConfType *ISOUDSConfPtr, uint8 dataBuff[])
             dataBuff[2] = (uint8)ISOUDS_STDP2LIM;
 
             /* Store the P2* value - resolution 10 ms/bit */
-
-            // Enrico: Fixed P2* to 1ms re according CANOO Spec
-            //p2aValue    = (uint16)(((uint32)ISOUDS_NRC78P2MAXLIM) / ((uint8)0x0A));
-            p2aValue    = (uint16)(((uint32)ISOUDS_NRC78P2MAXLIM));
+            p2aValue    = (uint16)(((uint32)ISOUDS_NRC78P2MAXLIM) / ((uint8)0x0A)); // P2 Value according UDS
+            //p2aValue    = (uint16)(((uint32)ISOUDS_NRC78P2MAXLIM));
 
             dataBuff[3] = (uint8)(p2aValue >> 8);
             dataBuff[4] = (uint8)p2aValue;
