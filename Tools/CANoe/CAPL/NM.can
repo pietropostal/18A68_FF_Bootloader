@@ -1,0 +1,33 @@
+/*@!Encoding:1252*/
+includes
+{
+  
+}
+
+variables
+{
+  long NM_CYCLE = 1000;
+  int nm_on = 0;
+  msTimer nm_timer;
+  message 0x7F9 nm_msg;
+}
+
+on start {
+  nm_on = @IL::Klemme15;
+  
+  setTimer( nm_timer, NM_CYCLE);
+  
+  nm_msg.dlc = 8;
+  nm_msg.BYTE(0) = 0xFF;
+  nm_msg.BYTE(1) = 0xFF;
+}
+
+on sysvar IL::Klemme15 {
+  nm_on = @IL::Klemme15;
+}
+
+on timer nm_timer {
+  if( nm_on )
+    output(nm_msg);
+  setTimer( nm_timer, NM_CYCLE);
+}

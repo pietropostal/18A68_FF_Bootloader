@@ -67,6 +67,7 @@ static void UJA1075Aloc_CMD_triggerWatchdogTimeout(eUJA1075A_WatchdogPeriod argP
 #if 0
 static void UJA1075Aloc_CMD_triggerWatchdogWindow(eUJA1075A_WatchdogPeriod argPeriod);
 #endif
+static void UJA1075Aloc_CMD_setStandby(void);
 static void UJA1075Aloc_CMD_setNormal(void);
 static void UJA1075Aloc_CMD_setSleep(void);
 static void UJA1075Aloc_CMD_read_WD_And_Status_Register(void);
@@ -238,6 +239,9 @@ void UJA1075A_vMain(void)
         case UJA1075A_STATE_STANDBY:
             if (UJA1075A_FSM_CHECK_ENTRY())
             {
+            	// Enrico added switch to Standby mode
+                UJA1075Aloc_CMD_setStandby();
+
                 /* entry code */
                 stateCnt = 0U;
             }
@@ -321,6 +325,11 @@ void UJA1075A_vMain(void)
                     if (strUJA1075A.cmd == UJA1075A_CMD_SLEEP)
                     {
                         UJA1075A_FSM_SET_NEW_STATE(UJA1075A_STATE_SLEEP);
+                    }
+                	// Enrico: added switch to StandbyMode
+                    else if (strUJA1075A.cmd == UJA1075A_CMD_STANDBY)
+                    {
+                        UJA1075A_FSM_SET_NEW_STATE(UJA1075A_STATE_STANDBY);
                     }
                 }
             }
@@ -615,7 +624,7 @@ static void UJA1075Aloc_CMD_triggerWatchdogTimeout(eUJA1075A_WatchdogPeriod argP
  * \par Used global resources
  * - \ref x - x
 */
-void UJA1075Aloc_CMD_setNormal(void)
+static void UJA1075Aloc_CMD_setNormal(void)
 {
     strUJA1075A.Mode_Control_Register.bits.ADDR = UJA1075A__REGADDR__MODE_CONTROL_REG;
     strUJA1075A.Mode_Control_Register.bits.RO = UJA1075A__RO_ReadWrite;
@@ -635,7 +644,7 @@ void UJA1075Aloc_CMD_setNormal(void)
  * \par Used global resources
  * - \ref x - x
 */
-void UJA1075Aloc_CMD_setSleep(void)
+static void UJA1075Aloc_CMD_setSleep(void)
 {
     strUJA1075A.Mode_Control_Register.bits.ADDR = UJA1075A__REGADDR__MODE_CONTROL_REG;
     strUJA1075A.Mode_Control_Register.bits.RO = UJA1075A__RO_ReadWrite;
@@ -656,7 +665,7 @@ void UJA1075Aloc_CMD_setSleep(void)
  * \par Used global resources
  * - \ref x - x
 */
-void UJA1075Aloc_CMD_setStandby(void)
+static void UJA1075Aloc_CMD_setStandby(void)
 {
     strUJA1075A.Mode_Control_Register.bits.ADDR = UJA1075A__REGADDR__MODE_CONTROL_REG;
     strUJA1075A.Mode_Control_Register.bits.RO = UJA1075A__RO_ReadWrite;
